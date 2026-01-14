@@ -4,7 +4,7 @@
 This project is a **C++ application** that monitors and processes log files efficiently on Linux.  
 It leverages **multi-threading** for concurrent log reading and processing and is fully **containerized using Docker** for portability.
 
-> The application counts logs by type (INFO, ERROR, WARNING, DEBUG) and writes ERROR logs separately for easy monitoring.[TIMESTAMP] [LEVE
+> The application counts logs by type (INFO, ERROR, WARNING, DEBUG) and writes ERROR logs separately for easy monitoring.[TIMESTAMP] [LEVEL]
 
 
 ## 🌟 Key Features
