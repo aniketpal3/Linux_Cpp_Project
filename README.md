@@ -24,23 +24,23 @@ All log entries must follow this format:
 - INFO
 - WARNING
 - ERROR
-- DEBUG
-
+- DEBU
 **Example:**
 [2025-01-10 11:00:01] ERROR Payment failed
 [2025-01-10 10:25:30] INFO Application started
 
-## 🏗️ Project Structure
+## 🏗️ Project Structurr
 
-log-processor/
+Linux_C++_Log_Processor/
 ├── src/
-│ └── main.cpp # C++ source code
+│   └── main.cpp
 ├── logs/
-│ └── app.log # Input log file
+│   └── app.log
 ├── output/
-│ └── error.log # ERROR logs output
-├── Dockerfile # Docker configuration
-└── README.md # Project documentation
+│   └── error.log
+├── Dockerfile
+├── README.md
+└── log_processor
 
 ## ⚙️ How to Build & Run
 
@@ -74,40 +74,31 @@ Error Log (output/error.log):
 
 [2025-01-10 10:25:31] ERROR Database connection failed
 [2025-01-10 11:00:01] ERROR Payment failed
+
 🧠 Technologies & Concepts Used
+
 C++17: Core language features, OOPs Principles.
-
 Threads & Mutex: std::thread, std::mutex, std::condition_variable.
-
 Linux System Programming: File handling, signals (SIGINT), process management.
-
 Docker: Containerization, volume mounting.
-
 STL Containers: std::queue, std::unordered_map.
 
 ✅ Challenges & Solutions
 Race Condition Between Threads: Fixed by ensuring producer thread completes before consumer starts in beginner mode.
-
 Real-Time File Monitoring in WSL: WSL file buffering required batch processing for predictable output.
-
 Error Handling: Proper messages and exit codes implemented for invalid logs or missing files.
 
-🎯 Conclusion
+🎯 Conclusion:
 This project demonstrates:
 
 Strong C++ programming fundamentals
-
 Linux environment expertise
-
 Thread-safe multi-threaded design
-
 Docker containerization skills
-
 It is HR-friendly, easy to read, and clearly showcases problem-solving and engineering skills.
 
 💡 Future Improvements
+
 Upgrade to full real-time tailing mode using std::filesystem and signals.
-
 Implement TCP socket server to stream log summaries.
-
 Integrate CI/CD pipeline for auto-build and deployment.
