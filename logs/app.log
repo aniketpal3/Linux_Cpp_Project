@@ -1,0 +1,7 @@
+[2025-01-10 10:25:30] INFO Application started
+[2025-01-10 10:25:31] ERROR Database connection failed
+[2025-01-10 10:25:32] WARNING Low memory
+[2025-01-10 10:25:33] DEBUG Debugging enabled
+[2025-01-10 11:00:00] INFO User logged in
+[2025-01-10 11:00:01] ERROR Payment failed
+[2025-01-10 11:00:02] DEBUG Debug data
