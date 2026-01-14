@@ -29,7 +29,7 @@ All log entries must follow this format:
 [2025-01-10 11:00:01] ERROR Payment failed
 [2025-01-10 10:25:30] INFO Application started
 
-## 🏗️ Project Structurr
+## 🏗️ Project Structure
 
 Linux_C++_Log_Processor/
 ├── src/
